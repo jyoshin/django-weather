@@ -8,7 +8,7 @@ def home(request):
     else:
         city = 'Almaty'
 
-    appid = 'a440dfb0ec7bcc037444b8dfef4afa4c'
+    appid = 'API_KEY'
     URL = 'https://api.openweathermap.org/data/2.5/weather'
     PARAMS = {'q':city,'appid':appid, 'units':'metric'}
 
